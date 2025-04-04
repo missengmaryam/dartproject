@@ -1,0 +1,1 @@
+if(pair case [int x , int y])return point(x,y)
