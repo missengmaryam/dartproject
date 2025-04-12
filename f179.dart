@@ -2,8 +2,7 @@ class Student {
   final String name;
   final int age;
 
-
-  const Student(this.name , this.age);
+  const Student(this.name, this.age);
 
   @override
   String toString() {
@@ -14,4 +13,5 @@ class Student {
 void main(List<String> args) {
   Student st1 = Student('maryam', 20);
   print(st1);
+  //st1.name = 'mina';  error
 }
